@@ -1,0 +1,654 @@
+﻿home:
+  skipToReport: 0
+  background: 'bg-1'
+  backgroundOverlay: false
+  title: 'Ma Première App'
+  categories: [
+    {
+      name: 'Introduction'
+      tiles: [
+        {
+          id: 'dd2a7d33-1167-e5e9-980c-80ad9104d01e'
+          name: 'Bienvenue <br><small><small><small><i>Cliquez pour agrandir</i></small></small></small>'
+          type: 'text'
+          dataset: 'my_dataset'
+          value: 'Toucan Toco permet de <b><font color=#f3c642>créer votre propre reporting digital</b></font> en quelques clics.\n\n<br><br>Cette formation vous fera de découvrir l\'outil en <b><font color=#f3c642>moins de 2 heures</b></font>.'
+          datasets:
+            my_dataset: {}
+        }
+        {
+          id: '7c7f1231-69d5-5d25-1c3a-4bbc4ce5f70e'
+          name: 'Comment ça marche ? <small><small><small><i>Cliquez pour agrandir</i></small></small></small>'
+          type: 'text'
+          dataset: 'my_dataset'
+          value: 'Dans le <b><font color=#F3C642>chapitre Formation</b></font>, chaque écran va vous expliquer le fonctionnement d\'une partie de l\'application.\n<br><br>Les thèmes sont abordés au travers d\'un <b><font color=#F3C642>texte</b></font> et d\'une <b><font color=#F3C642>vidéo</b></font>.\n<br><br>Ensuite, libre à vous de <b><font color=#F3C642>créer vos propres écrans !</b></font>'
+          datasets:
+            my_dataset: {}
+        }
+        {
+          id: 'ef0f27be-5d2f-de3a-bd50-c585e1583ff9'
+          name: 'New tile'
+          type: 'separator'
+          dataset: 'my_dataset'
+          datasets:
+            my_dataset: {}
+        }
+        {
+          id: 'ef0e34ba-bbe6-86bd-b898-7d262b93fe83'
+          name: 'New tile'
+          type: 'image'
+          dataset: 'my_dataset'
+          src:
+            assetName: 'start'
+          bgSize: 'cover'
+          linkTo:
+            type: 'slide'
+            id: '1001'
+          datasets:
+            my_dataset: {}
+        }
+      ]
+    }
+  ]
+  backgroundBlurred: true
+slides: [
+  {
+    level: 0
+    id: 0
+  }
+  {
+    id: 1
+    level: 1
+    title: 'Formation'
+  }
+  {
+    id: 1001
+    level: 3
+    parent_id: 1
+    title: 'Passez en mode Edition'
+    datasets:
+      my_dataset:
+        id: 'my_dataset'
+        query:
+          domain: ''
+    charts: [
+      {
+        dataset: "my_dataset"
+        value: '''
+          <p align="center">
+          	<iframe width="522" height="242"
+          		src="https://www.youtube.com/embed/yhsBV7M4OWo?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
+          		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </p>
+
+          <h3 class="trial-title">Qu'est ce que le mode production ?</h3>
+          <span class="home-tabs__subtitle">
+            C'est la version que les utilisateurs pourront consulter. Vous y êtes actuellement.
+            <br>
+          </span>
+
+          <h3 class="trial-title">Et le staging ?</h3>
+          <span class="home-tabs__subtitle">
+            C'est la version que les concepteurs pourront modifier.
+            Ici, tout est paramétrable en clics.
+            <br>
+          </span>
+
+          <h3 class="trial-title">Comment passer du mode production au mode staging ?</h3>
+          <span class="home-tabs__subtitle">
+            Cliquez sur l'interrupteur <i class="fas fa-toggle-on"></i> en bas à gauche de l'écran.
+            Et hop, vous voilà en mode staging. C'est votre brouillon.
+            Vous ne pouvez pas le louper grâce à la bordure bleue autour de l'écran.
+            <br>
+          </span>
+
+          <h3 class="trial-title">Comment changer le titre de mon application ?</h3>
+          <span class="home-tabs__subtitle">
+            Cliquez sur l'icone menu <i class="fas fa-bars"></i> puis cliquez sur "retour à la home" pour retourner sur la page d'accueil.
+            <br>Survolez le titre puis cliquez sur le crayon <i class="fas fa-pencil-alt"></i>.
+            Maintenant remplissez votre nouveau titre et validez en appuyant sur la touche "Entrée".
+            <br>
+          </span>
+
+          <h3 class="trial-title">Comment publier en production ?</h3>
+          <span class="home-tabs__subtitle">
+            Vous voulez que vos utilisateurs voient votre nouveau titre. Alors il faut le publier.
+            Pour cela, cliquez sur la clé à molette <i class="fas fa-wrench"></i> en bas à droite de l'écran. Puis cliquez sur "publish".
+            Maintenant, vous pouvez retourner sur la version de production en cliquant sur l'interrupteur en bas à gauche de l'écran.
+            <br>
+          </span>
+        '''
+        chartType: "html"
+      }
+    ]
+    recommendation:
+      advert: 'Attention'
+      content: 'Pensez à utiliser la molette pour descendre jusqu\'au bas de la page !'
+      hideIcon: false
+  }
+  {
+    id: 1002
+    level: 3
+    parent_id: 1
+    title: 'Modifiez la charte graphique'
+    datasets:
+      my_dataset:
+        id: 'my_dataset'
+        query:
+          domain: ''
+    charts: [
+      {
+        dataset: "my_dataset"
+        value: '''
+          <p align="center">
+          	<iframe width="522" height="242"
+          		src="https://www.youtube.com/embed/KFoAjIKZ4j0?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
+          		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </p>
+
+          <h3 class="trial-title">Modifiez le logo et l'image de fond</h3>
+          <span class="home-tabs__subtitle">
+            <small>
+              <i>
+                Passez en mode édition (comme dans l'épisode précédent)
+              </i>
+            </small>
+
+            <br><br>
+            Cliquez sur "theme" puis sur "assets" dans le menu noir en bas de l'écran.
+            <br>Chargez votre image de fond dans les 3 premières vignettes.
+            <br>Chargez votre logo dans les 3 dernières vignettes.
+
+            <br><br>
+            Astuce : Vous pouvez trouver des images publiques ici <a href="https://pixabay.com/fr/" a>https://pixabay.com/fr/</a>
+
+            <br><br>
+            <small>
+              <i>
+                Le détail de chacune des vignettes sera expliqué ultérieurement au cours du projet.
+              </i>
+            </small>
+          <span>
+          <br>
+
+          <h3 class="trial-title">Modifiez les couleurs</h3>
+          <span class="home-tabs__subtitle">
+            Cliquez sur "theme" puis sur "color scheme" dans le menu noir en bas de l'écran. Puis modifiez la palette avec vos codes couleurs.
+
+            <br><br>
+            Astuce : Vous pouvez trouver des palettes de couleur ici <a href="https://mycolor.space/" a>https://mycolor.space/</a>
+
+            <br><br>
+            <small>
+              <i>
+                Le détail de la palette sera expliqué ultérieurement au cours du projet.
+              </i>
+            </small>
+          <span>
+          <br>
+
+          <h3 class="trial-title">Ajoutez un calque sur l'image de fond</h3>
+          <span class="home-tabs__subtitle">
+            Retournez sur la page d'accueil (comme dans l'épisode précédent) puis cliquez sur l'icone image <i class="far fa-image"></i> en haut à gauche de la page.
+            Ensuite, cliquez sur l'interrupteur "calque de fond coloré" et saisissez une couleur pour aténuer le contraste (ex #4c4c4)
+          <span>
+          <br>
+        '''
+        chartType: "html"
+      }
+    ]
+    visibility: true
+  }
+  {
+    id: 92137980
+    level: 3
+    parent_id: 1
+    title: 'Créez une Tuile'
+    datasets:
+      my_dataset:
+        id: 'my_dataset'
+        query:
+          domain: ''
+    charts: [
+      {
+        dataset: "my_dataset"
+        value: '''
+          <p align="center">
+          	<iframe width="522" height="242"
+          		src="https://www.youtube.com/embed/gSAbU3Ti6_g?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
+          		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </p>
+
+          <h3 class="trial-title">Qu'est ce que qu'une tuile ?</h3>
+          <span class="home-tabs__subtitle">
+            Les tuiles sont les graphiques de la page d'accueil. Ce sont des visuels simples qui résument l'application.
+            <br>
+            Des écrans de détails sont généralement présents dans les chapitres pour apporter plus de profondeur à l'analyse.
+          </span>
+          <br>
+
+          <h3 class="trial-title">Ajoutez une tuile</h3>
+          <span class="home-tabs__subtitle">
+            Cliquez sur "add tile" à côté de la tuile image "start". Une nouvelle tuile vide apparait.
+            <br>
+            Maintenant survolez cette tuile et cliquez sur le stylo.
+          </span>
+          <br>
+
+          <h3 class="trial-title">Choissez une source de données</h3>
+          <span class="home-tabs__subtitle">
+            Toucan vous demande si vous voulez créer une nouvelle requête ou copier une requête existante.
+            <br>Cliquez sur "New query from scratch" pour créer une nouvelle requête.
+            <br><br>
+            Cliquez sur "sélectionner un jeu de données" puis sélectionnez le jeu de données "Entrainement".
+            <br><br>
+            Ce jeu de données contient les colonnes suivantes :
+            <ul>
+              <li><b>Indicateur</b> CA, marge</li>
+              <li><b>Années</b> 2018, 2019, 2020</li>
+              <li><b>Pays</b> Allemagne, France, Italie</li>
+              <li><b>Ville</b> Berlin, Munich, Paris, Lyon, Rome, Milan</li>
+              <li><b>Montant</b> exemple: le CA	en 2018 en France	à Paris	est de 7</li>
+            </ul>
+
+            <small>
+              <i>
+                Le chargement d'un fichier Excel sera expliqué dans le chapitre Bonus.
+              </i>
+            </small>
+          </span>
+          <br>
+
+          <h3 class="trial-title">Filtrez les données</h3>
+          <span class="home-tabs__subtitle">
+            Vous voulez afficher le top 3 des villes en terme de CA pour 2020.
+
+            <br><br>
+            Pour filtrer le jeu de données :
+            <ul>
+              <li>Cliquez sur l'icone entonnoir <i class="fas fa-filter"></i> en haut à droite puis cliquez sur l'opération "filter rows".</li>
+              <li>Dans la partie de gauche, saisissez <u>Date</u> puis <u>equals</u> puis <u>2020</u>.</li>
+              <li>Pour ajouter une condition, cliquez sur "add condition".</li>
+              <li>Saisissez <u>Indicateur</u> puis <u>equals</u> puis <u>CA</u>.</li>
+            </ul>
+
+            Pour trier le jeu de données :
+            <ul>
+              <li>Cliquez sur la flèche à côté de la colonne "montant" puis sélectionnez "other operations". Enfin cliquez sur "sort values".</li>
+              <li>Dans la partie de gauche, sélectionnez "desc" (descendant) à la place de "asc" (ascendant).</li>
+            </ul>
+          </span>
+
+          <h3 class="trial-title">Paramétrez la tuile</h3>
+          <span class="home-tabs__subtitle">
+            Quittons maintenant la partie requête de données...
+            <br><br>Cliquez sur tuile en haut à gauche de l'écran.
+            <br><br>Le type de visuel par défaut est le "leaderboard" (barres horizontales).
+            <br><br>Saisissez les champs suivants :
+            <ul>
+              <li><b>Tile's tile</b> Top 3 CA</li>
+              <li><b>Label</b> Ville</li>
+              <li><b>Value</b> Montant</li>
+            </ul>
+            Enfin, cliquez sur "save". Et voilà votre première tuile est terminée !
+          </span>
+          <br>
+        '''
+        chartType: "html"
+      }
+    ]
+    visibility: true
+  }
+  {
+    id: 1004
+    level: 3
+    parent_id: 1
+    title: 'Créez un Ecran (1/2)'
+    datasets:
+      my_dataset:
+        id: 'my_dataset'
+        query:
+          domain: ''
+    charts: [
+      {
+        dataset: "my_dataset"
+        value: '''
+          <p align="center">
+          	<iframe width="522" height="242"
+          		src="https://www.youtube.com/embed/ZcuYTwTR1MA?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
+          		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </p>
+
+          <h3 class="trial-title">Qu'est ce qu'un écran ?</h3>
+          <span class="home-tabs__subtitle">
+            Les écrans sont présents dans les chapitres. Ce sont des graphiques dans lesquels on peut ajouter plus de détails que dans les tuiles.
+            On peut y accéder par le menu ou bien avec un lien depuis une tuile.
+
+            <br><br>
+            <small>
+              <i>
+                La création d'un lien d'une tuile vers un écran sera expliquée ultérieurement au cours du projet.
+              </i>
+            </small>
+          </span>
+          <br>
+
+          <h3 class="trial-title">Ajoutez un chapitre</h3>
+          <span class="home-tabs__subtitle">
+            Cliquez sur l'icone menu (en haut à gauche de l'écran).
+            <br>Sous le chapitre "formation", cliquez sur "add a chapter". Un nouveau chapitre apparait.
+            <br>Cliquez sur le crayon pour modifier le titre par défaut puis appuyez sur "entrée" pour valider.
+          </span>
+          <br>
+
+          <h3 class="trial-title">Créez un écran</h3>
+          <span class="home-tabs__subtitle">
+            Cliquez sur votre nouveau chapitre. Un écran par défaut a été créé.
+            <br>Cliquez sur le crayon pour éditer le titre de cet écran.
+            <br>Cliquez sur "éditer cet écran" pour paramétrer un graphique.
+
+            <br><br>
+            Vous êtes maintenant dans l'interface centrale. On peut y paramétrer les éléments suivants :
+            <ul>
+              <li>le graphique</li>
+              <li>les filtres</li>
+              <li>le commentaire</li>
+            </ul>
+            Commençons par le graphique...
+            <br><br>
+            Cliquez sur "add chart" au milieu de l'écran.
+          </span>
+          <br>
+
+          <h3 class="trial-title">Choissez une source de données</h3>
+          <span class="home-tabs__subtitle">
+            Cliquez sur "Sélectionner un jeu de données" puis sélectionnez "entrainement".
+          </span>
+          <br>
+
+          <h3 class="trial-title">Filtrez les données</h3>
+          <span class="home-tabs__subtitle">
+            Contrairement à la tuile, nous n'allons pas filtrer les données. Nous allons jouer sur les filtres pour afficher une partie des données.
+            L'utilisateur pourra donc réaliser sa propre analyse.
+            <br><br>
+            Nous allons cependant trier les données comme dans la tuile.
+            <br><br>
+            Cliquez sur la flêche à côté de la colonne "montant" puis sur "other operations"
+            <br>Cliquez sur "sort values".
+            <br>Selectionnez "desc" (pour avoir un tri descendant).
+          </span>
+          <br>
+
+          <h3 class="trial-title">Paramétrez l'écran</h3>
+          <span class="home-tabs__subtitle">
+            Quittons la partie requête...
+            <br><br>
+            Cliquez sur "chart" en haut à gauche de l'écran.
+            <br>Sélectionnez le type de visuel "leaderboard".
+            <br>Saisissez les champs suivants :
+            <ul>
+              <li><b>Label</b> Ville</li>
+              <li><b>Value </b> Montant</li>
+            </ul>
+            Votre graphique est paramétré. Maintenant revenons sur l'interface centrale pour paramétrer les filtres. Pour cela cliquez sur la croix en haut à droite.
+          </span>
+          <br>
+
+          <h3 class="trial-title">Ajoutez des filtres</h3>
+          <span class="home-tabs__subtitle">
+            Cliquez sur "add a filter" au milieu de l'écran.
+            <br>Saissisez les champs suivants :
+            <ul>
+              <li><b>Type of filter </b> dropdown</li>
+              <li><b>on columns </b> Date</li>
+            </ul>
+            Cliquez sur la croix en haut à droite pour revenir sur l'interface centrale.
+
+            Cliquez sur "add a filter" au milieu à droite de l'écran.
+            <br>Saissisez les champs suivants :
+            <ul>
+              <li><b>Type of filter </b> buttons</li>
+              <li><b>on columns </b> Indicateur</li>
+            </ul>
+            Cliquez sur la croix en haut à droite pour revenir sur l'interface centrale.
+
+            <br><br>
+            Cliquez sur save. Admirez votre premier graphique. Maintenant nous pouvons jouer sur les filtres pour avoir un maximum d'informations.
+          </span>
+          <br>
+        '''
+        chartType: "html"
+      }
+    ]
+    visibility: true
+  }
+  {
+    id: 84761615
+    level: 3
+    parent_id: 1
+    title: 'Créez un écran (2/2)'
+    datasets:
+      my_dataset:
+        id: 'my_dataset'
+        query:
+          domain: ''
+    charts: [
+      {
+        value: '''
+          <p align="center">
+          	<iframe width="522" height="242"
+          		src="https://www.youtube.com/embed/TMox--_Ihjw?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
+          		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </p>
+
+          <h3 class="trial-title">Ajoutez des paillettes à votre écran !</h3>
+          <span class="home-tabs__subtitle">
+            Nous allons maintenant ajouter un commentaire, des variations et des unités à notre graphique.
+
+            <ul>
+            <b><li>Ajoutez un commentaire</li></b>
+            <br>Cliquez sur le crayon en haut à droite de l'écran.
+            <br>Cliquez sur "comment this story" puis saissez le champs "commentary" pour expliquer ce que représente ce graphique.
+            <br>Cliquez sur "save" pour valider.
+
+            <br><br>
+            <b><li>Ajoutez des variations</li></b>
+            <br>Maintenant éditez le graphique puis descendez en bas des paramètres.
+            <br>Vous pouvez ajouter une variation en cliquant sur "plus de paramètres optionnels" puis en saissant "Variation" dans le champs variation.
+
+            <br><br>
+            <b><li>Ajoutez des unités</li></b>
+            <br>Restez sur la partie "chart" (et non pas sur "query"). Cliquez sur la flèche de la colonne montant et cliquez sur "configurer les unités".
+            <br>Saissez "k€" puis sauvegardez (laissez coché la case 'Display a space before the unit', sinon l'unité sera collée au nombre).
+            </ul>
+
+            <br>Revenez à l'interface centrale puis enregistrez.
+            <br>Lorsque vous sélectionnez 2020 ou 2019, la variation s'affiche !
+            </small>
+          </span>
+          <br>
+
+          <h3 class="trial-title">Créez un 2e graphique</h3>
+          <span class="home-tabs__subtitle">
+            Vous devez maintenant créer un "linechart" (graphique de type ligne) pour afficher le total du CA par année.
+
+            <br><br>
+            Vous pouvez créer un 2e écran dans le même chapitre en cliquant sur le "plus" dans le menu.
+
+            <br><br>
+            Le fonctionnement est le même que précédemment. La seule subtilité réside dans le calcul du total par année.
+            <br>Nous avons plusieurs lignes par année. Il faut donc les regrouper. C'est une agrégation que l'on appelle "group by".
+            <br>Pour l'utiliser, cliquez sur "agregrate" <i class="fas fa-code-branch"></i> puis sur "group by".
+            <br>Saisissez les champs suivants :
+            <ul>
+              <li><b>Group rows by...</b> Date</li>
+              <li><b>And aggregate...</b> Montant</li>
+            </ul>
+
+            Pour votre "linechart", saisissez les champs suivants :
+            <ul>
+              <li><b>Value</b> Montant</li>
+              <li><b>X</b> Date</li>
+            </ul>
+
+            En cliquant sur "save", vous pouvez observer le résultat !
+            </small>
+          </span>
+          <br>
+        '''
+        chartType: "html"
+        dataset: "my_dataset"
+      }
+    ]
+  }
+  {
+    id: 509051
+    level: 1
+    title: 'Bonus'
+  }
+  {
+    id: 1276794
+    level: 3
+    parent_id: 1
+    title: 'Ajoutez des filtres principaux'
+    datasets: {}
+    charts: [
+      {
+        value: '''
+          <p align="center">
+            <iframe width="522" height="242" src="https://www.youtube.com/embed/JwCuTDo4reY?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </p>
+
+          <h3 class="trial-title">Qu’est-ce que les filtres principaux ?</h3>
+          <span class="home-tabs__subtitle">
+            Ce sont des filtres qui seront présents dans toute l’application, sur la page d’accueil et sur les écrans de détail.
+            <br><br>
+            Toucan permet de créer 2 filtres principaux :
+            <ul>
+              <li><b>Le filtre hiérarchique appelé report</b><br>Il correspond à l’axe d’analyse le plus présent dans l’application. A vous de définir quelle dimension revient le plus souvent</li>
+              <li><b>Le filtre date appelé date</b></li>
+            </ul>
+          </span>
+
+          <h3 class="trial-title">Créez un filtre principal</h3>
+          <span class="home-tabs__subtitle">
+            Disons que nous voulons créer un filtre hiérarchique contenant la liste des pays présents dans notre fichier entrainement.
+
+            <br><br>
+            Cliquez sur "Ajouter une sélection de rapport" dans la page d’accueil. Votre filtre apparait. Pour le moment il est vide.
+            <br>Editez-le en cliquant sur le crayon.
+            <br><br>
+            Toucan vous demande maintenant créer une requête qui renvoie la liste des valeurs distinctes de votre dimension principale.
+
+            <br><br>
+            Sélectionnez le jeu de données entrainement puis cliquez sur "aggregate" <i class="fas fa-code-branch"></i> et sélectionnez "get unique groups/values".
+            <br>Sélectionnez "Pays" dans la partie de gauche puis sauvegarder.
+
+            <br><br>
+            Maintenant quittons la partie requête pour paramétrez votre filtre…
+
+            <br><br>
+            Il y a 2 champs importants :
+            <ul>
+              <li><b>View Label</b><br>C’est la colonne qui sera affichée. Saisissez donc Pays.</li>
+              <li><b>Description</b><br>Saisissez un message par défaut pour le filtre (par exemple : Choisissez votre pays). Si vous ne voulez pas mettre de message, décochez la case "Show in home searchbar"</li>
+            </ul>
+          </span>
+
+          <h3 class="trial-title">Reliez vos tuiles et vos écrans au filtre principal</h3>
+          <span class="home-tabs__subtitle">
+            Maintenant vous avez la possibilité ou non de relier les tuiles au filtre principal.
+            <br><br>
+            Pour ce faire, éditez la tuile et modifiez l’étape "filter rows" en cliquant sur l’engrenage <i class="fas fa-cog"></i>.
+            <br>Ajoutez une condition (Add condition) et saisissez <u>Pays</u> puis <u>equals</u> puis survolez les accolades sur le dernier champs <i class="fas fa-brackets-curly"></i>.
+            <br>Dans la liste déroulante, vous pouvez sélectionner la variable de votre filtre principal. Cette valeur sera actualisée automatiquement à chaque fois que vous changerez de sélection.
+            <br><br>
+            Et voilà, votre tuile est reliée au filtre principal !
+
+            <br><br>
+            Le fonctionnement du filtre date est identique...
+          </span>
+        '''
+        chartType: "html"
+        dataset: "my_dataset"
+      }
+    ]
+  }
+  {
+    id: 57776576
+    level: 3
+    parent_id: 509051
+    title: 'Chargez un fichier Excel'
+    datasets:
+      my_dataset:
+        id: 'my_dataset'
+        query:
+          domain: ''
+    charts: [
+      {
+        value: '''
+          <p align="center">
+            <iframe width="522" height="242" src="https://www.youtube.com/embed/K7bZ4-_aacI?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </p>
+          <small>
+            <i>
+              Toucan Toco offre beaucoup de possibilités pour charger des données :
+              <ul>
+                <li>Fichiers Excel et CSV</li>
+                <li>Serveurs FTP</li>
+                <li>API</li>
+                <li>SQL</li>
+                <li>AWS S3 Bucket</li>
+                <li>...</li>
+              </ul>
+              Pour le moment, nous allons uniquement traiter le chargement de fichiers Excel. La connexion à vos sources de données sera étudiée ultérieurement lors du projet.
+            </i>
+          </small>
+
+          <h3 class="trial-title">Comment télécharger le fichier data.xlsx ?</h3>
+          <span class="home-tabs__subtitle">
+            Cliquez sur "data" dans le menu noir en bas de l'écran. Choisissez l'option "data source".
+            <br><br>Vous voyez une vignette qui correspond à notre jeu de données "Entrainement".
+            <br>Le fichier "data.xlsx" a été chargé dans Toucan Toco. Ces données sont devenues un "domain" dans la base de données de Toucan Toco. En l’occurrence, il s’agit du "domain" Entrainement.
+            <br><br>Cliquez sur l'icône téléchargement <i class="fas fa-download"></i> puis choisissez le fichier qui alimente la production ou le staging.
+          </span>
+
+          <h3 class="trial-title">Comment mettre à jour un domain ?</h3>
+          <span class="home-tabs__subtitle">
+            Ajoutez de nouvelles lignes au fichier "data.xlsx" pour ajouter des villes.
+            <br><br>Pour charger le fichier modifié, vous pouvez cliquer sur le rectangle pointillé au milieu de la vignette ("click or drag a new file in here").
+            <br>Toucan va maintenant charger ce fichier dans la base de données. Lorsque ce sera terminé, vous verrez un message en bas à droite de l'écran.
+          </span>
+
+          <h3 class="trial-title">Comment ajouter un fichier Excel ?</h3>
+          <span class="home-tabs__subtitle">
+            Cliquez sur la vignette grise la plus à gauche ("ajouter un fichier source"). Choisissez votre fichier.
+            <br>Renommez le domain et cliquez sur "Save".
+            <br><br>Voilà, votre fichier est maintenant disponible dans Toucan !
+          </span>
+        '''
+        chartType: "html"
+        dataset: "my_dataset"
+      }
+    ]
+  }
+]
+additionalPanel:
+  captureChartEnabled: true
+  comments: true
+  embedCharts: true
+  glossary:
+    title: 'Glossaire'
+    terms: [
+      {
+        term: 'Dataviz'
+        meaning: 'c’est l’art de raconter des chiffres de manière créative et ludique, là où les tableaux Excel échouent. C’est en quelque sorte mettre en musique l’information chiffrée'
+      }
+    ]
+  sharingOptions: true
+  slidePdfEnabled: true
+dashboardPdfEnabled: true
+availableLocales: [
+  'fr'
+]
+appRequesters: {}

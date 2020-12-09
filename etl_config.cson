@@ -1,0 +1,62 @@
+﻿DATA_SOURCES: [
+  {
+    domain: 'Entrainement'
+    type: 'excel'
+    file: 'data.xlsx'
+  }
+]
+DATA_PROVIDERS: []
+REPORTS: [
+  {
+    query:
+      domain: 'referentiel'
+    template: 'report'
+  }
+]
+DASHBOARDS: [
+  {
+    query:
+      domain: 'referentiel'
+      default: 1
+    report: 'Report'
+    template: 'dashboard1'
+  }
+  {
+    query:
+      domain: 'referentiel'
+      default:
+        $ne: 1
+    report: 'Report'
+    template: 'dashboard2'
+  }
+]
+MAX_SELECTABLE_DASHBOARDS: 500
+MONGO_INDEXES: [
+  'domain'
+]
+PIPELINE: []
+PERMISSIONS_DATA:
+  query:
+    domain: 'user_groups_permissions'
+NOTIFICATIONS: [
+  {
+    event: 'smallapp.after_operation_failure'
+    sender: [
+      {
+        channel: 'push'
+        template: 'webpush_operation_failure_template'
+        only_to_triggerrer: true
+      }
+    ]
+  }
+  {
+    event: 'smallapp.new_data_available'
+    sender: [
+      {
+        channel: 'push'
+        template: 'webpush_new_data_available_template'
+        throttle: '3 hours'
+      }
+    ]
+  }
+]

@@ -75,6 +75,7 @@ slides: [
       {
         dataset: "my_dataset"
         value: '''
+        <div>
           <p align="center">
           	<iframe width="522" height="242"
           		src="https://www.youtube.com/embed/yhsBV7M4OWo?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
@@ -117,6 +118,7 @@ slides: [
             Maintenant, vous pouvez retourner sur la version de production en cliquant sur l'interrupteur en bas à gauche de l'écran.
             <br>
           </span>
+        </div>
         '''
         chartType: "html"
       }
@@ -140,6 +142,7 @@ slides: [
       {
         dataset: "my_dataset"
         value: '''
+        <div>
           <p align="center">
           	<iframe width="522" height="242"
           		src="https://www.youtube.com/embed/1R5hrlalehk?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
@@ -193,6 +196,7 @@ slides: [
             Ensuite, cliquez sur l'interrupteur "calque de fond coloré" et saisissez une couleur pour aténuer le contraste (ex #4c4c4)
           <span>
           <br>
+        </div>
         '''
         chartType: "html"
       }
@@ -213,6 +217,7 @@ slides: [
       {
         dataset: "my_dataset"
         value: '''
+        <div>
           <p align="center">
           	<iframe width="522" height="242"
           		src="https://www.youtube.com/embed/gSAbU3Ti6_g?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
@@ -293,6 +298,7 @@ slides: [
             Enfin, cliquez sur "save". Et voilà votre première tuile est terminée !
           </span>
           <br>
+        </div>
         '''
         chartType: "html"
       }
@@ -313,6 +319,7 @@ slides: [
       {
         dataset: "my_dataset"
         value: '''
+        <div>
           <p align="center">
           	<iframe width="522" height="242"
           		src="https://www.youtube.com/embed/ZcuYTwTR1MA?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
@@ -416,6 +423,7 @@ slides: [
             Cliquez sur save. Admirez votre premier graphique. Maintenant nous pouvons jouer sur les filtres pour avoir un maximum d'informations.
           </span>
           <br>
+        </div>
         '''
         chartType: "html"
       }
@@ -435,6 +443,7 @@ slides: [
     charts: [
       {
         value: '''
+        <div>
           <p align="center">
           	<iframe width="522" height="242"
           		src="https://www.youtube.com/embed/TMox--_Ihjw?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
@@ -495,6 +504,7 @@ slides: [
             </small>
           </span>
           <br>
+        </div>
         '''
         chartType: "html"
         dataset: "my_dataset"
@@ -515,6 +525,7 @@ slides: [
     charts: [
       {
         value: '''
+        <div>
           <p align="center">
             <iframe width="522" height="242" src="https://www.youtube.com/embed/JwCuTDo4reY?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </p>
@@ -568,6 +579,7 @@ slides: [
             <br><br>
             Le fonctionnement du filtre date est identique...
           </span>
+        </div>
         '''
         chartType: "html"
         dataset: "my_dataset"
@@ -587,6 +599,7 @@ slides: [
     charts: [
       {
         value: '''
+        <div>
           <p align="center">
             <iframe width="522" height="242" src="https://www.youtube.com/embed/eOm_MIuWa5U?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </p>
@@ -626,6 +639,7 @@ slides: [
             <br>Renommez le domain et cliquez sur "Save".
             <br><br>Voilà, votre fichier est maintenant disponible dans Toucan !
           </span>
+        </div>
         '''
         chartType: "html"
         dataset: "my_dataset"

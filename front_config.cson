@@ -75,49 +75,56 @@ slides: [
       {
         dataset: "my_dataset"
         value: '''
-        <div>
+        <div style="width:100%">
           <p align="center">
           	<iframe width="522" height="242"
           		src="https://www.youtube.com/embed/yhsBV7M4OWo?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
           		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </p>
 
-          <h3 class="trial-title">Qu'est ce que le mode production ?</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Qu'est ce que le mode production ?</h3>
           <span class="home-tabs__subtitle">
             C'est la version que les utilisateurs pourront consulter. Vous y êtes actuellement.
             <br>
           </span>
 
-          <h3 class="trial-title">Et le staging ?</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Et le staging ?</h3>
           <span class="home-tabs__subtitle">
             C'est la version que les concepteurs pourront modifier.
             Ici, tout est paramétrable en clics.
             <br>
           </span>
 
-          <h3 class="trial-title">Comment passer du mode production au mode staging ?</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Comment passer du mode production au mode staging ?</h3>
           <span class="home-tabs__subtitle">
-            Cliquez sur l'interrupteur <i class="fas fa-toggle-on"></i> en bas à gauche de l'écran.
+            Cliquez sur l'interrupteur <i class="fas fa-toggle-on" style="font-size:large;color:#F3C642"></i> en bas à gauche de l'écran.
             Et hop, vous voilà en mode staging. C'est votre brouillon.
             Vous ne pouvez pas le louper grâce à la bordure bleue autour de l'écran.
             <br>
           </span>
 
-          <h3 class="trial-title">Comment changer le titre de mon application ?</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Comment changer le titre de mon application ?</h3>
           <span class="home-tabs__subtitle">
-            Cliquez sur l'icone menu <i class="fas fa-bars"></i> puis cliquez sur "retour à la home" pour retourner sur la page d'accueil.
-            <br>Survolez le titre puis cliquez sur le crayon <i class="fas fa-pencil-alt"></i>.
+            Cliquez sur l'icone menu <i class="fas fa-bars" style="font-size:large;color:#F3C642"></i> puis cliquez sur "retour à la home" pour retourner sur la page d'accueil.
+            <br>Survolez le titre puis cliquez sur le crayon <i class="fas fa-pencil-alt" style="font-size:large;color:#F3C642"></i>.
             Maintenant remplissez votre nouveau titre et validez en appuyant sur la touche "Entrée".
             <br>
           </span>
 
-          <h3 class="trial-title">Comment publier en production ?</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Comment publier en production ?</h3>
           <span class="home-tabs__subtitle">
             Vous voulez que vos utilisateurs voient votre nouveau titre. Alors il faut le publier.
-            Pour cela, cliquez sur la clé à molette <i class="fas fa-wrench"></i> en bas à droite de l'écran. Puis cliquez sur "publish".
+            Pour cela, cliquez sur la clé à molette <i class="fas fa-wrench" style="font-size:large;color:#F3C642"></i> en bas à droite de l'écran. Puis cliquez sur "publish".
             Maintenant, vous pouvez retourner sur la version de production en cliquant sur l'interrupteur en bas à gauche de l'écran.
             <br>
           </span>
+
+          <br><br>
+        	<div style="text-align:center;color:#88B2A8">
+        		<i class="fas fa-flag-checkered" style="font-size:x-large"></i>
+        		<br>Niveau validé
+          </div>
+
         </div>
         '''
         chartType: "html"
@@ -142,14 +149,14 @@ slides: [
       {
         dataset: "my_dataset"
         value: '''
-        <div>
+        <div style="width:100%">
           <p align="center">
           	<iframe width="522" height="242"
           		src="https://www.youtube.com/embed/1R5hrlalehk?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
           		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </p>
 
-          <h3 class="trial-title">Modifiez le logo et l'image de fond</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Modifiez le logo et l'image de fond</h3>
           <span class="home-tabs__subtitle">
             <small>
               <i>
@@ -174,7 +181,7 @@ slides: [
           <span>
           <br>
 
-          <h3 class="trial-title">Modifiez les couleurs</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Modifiez les couleurs</h3>
           <span class="home-tabs__subtitle">
             Cliquez sur "theme" puis sur "color scheme" dans le menu noir en bas de l'écran. Puis modifiez la palette avec vos codes couleurs.
 
@@ -190,12 +197,18 @@ slides: [
           <span>
           <br>
 
-          <h3 class="trial-title">Ajoutez un calque sur l'image de fond</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Ajoutez un calque sur l'image de fond</h3>
           <span class="home-tabs__subtitle">
-            Retournez sur la page d'accueil (comme dans l'épisode précédent) puis cliquez sur l'icone image <i class="far fa-image"></i> en haut à gauche de la page.
+            Retournez sur la page d'accueil (comme dans l'épisode précédent) puis cliquez sur l'icone image <i class="far fa-image" style="font-size:large;color:#F3C642"></i> en haut à gauche de la page.
             Ensuite, cliquez sur l'interrupteur "calque de fond coloré" et saisissez une couleur pour aténuer le contraste (ex #4c4c4)
           <span>
-          <br>
+
+          <br><br>
+        	<div style="text-align:center;color:#88B2A8">
+        		<i class="fas fa-flag-checkered" style="font-size:x-large"></i>
+        		<br>Niveau validé
+          </div>
+
         </div>
         '''
         chartType: "html"
@@ -217,14 +230,14 @@ slides: [
       {
         dataset: "my_dataset"
         value: '''
-        <div>
+        <div style="width:100%">
           <p align="center">
           	<iframe width="522" height="242"
           		src="https://www.youtube.com/embed/gSAbU3Ti6_g?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
           		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </p>
 
-          <h3 class="trial-title">Qu'est ce que qu'une tuile ?</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Qu'est ce que qu'une tuile ?</h3>
           <span class="home-tabs__subtitle">
             Les tuiles sont les graphiques de la page d'accueil. Ce sont des visuels simples qui résument l'application.
             <br>
@@ -232,7 +245,7 @@ slides: [
           </span>
           <br>
 
-          <h3 class="trial-title">Ajoutez une tuile</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Ajoutez une tuile</h3>
           <span class="home-tabs__subtitle">
             Cliquez sur "add tile" à côté de la tuile image "start". Une nouvelle tuile vide apparait.
             <br>
@@ -240,7 +253,7 @@ slides: [
           </span>
           <br>
 
-          <h3 class="trial-title">Choissez une source de données</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Choissez une source de données</h3>
           <span class="home-tabs__subtitle">
             Toucan vous demande si vous voulez créer une nouvelle requête ou copier une requête existante.
             <br>Cliquez sur "New query from scratch" pour créer une nouvelle requête.
@@ -264,14 +277,14 @@ slides: [
           </span>
           <br>
 
-          <h3 class="trial-title">Filtrez les données</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Filtrez les données</h3>
           <span class="home-tabs__subtitle">
             Vous voulez afficher le top 3 des villes en terme de CA pour 2020.
 
             <br><br>
             Pour filtrer le jeu de données :
             <ul>
-              <li>Cliquez sur l'icone entonnoir <i class="fas fa-filter"></i> en haut à droite puis cliquez sur l'opération "filter rows".</li>
+              <li>Cliquez sur l'icone entonnoir <i class="fas fa-filter" style="font-size:large;color:#F3C642"></i> en haut à droite puis cliquez sur l'opération "filter rows".</li>
               <li>Dans la partie de gauche, saisissez <u>Date</u> puis <u>equals</u> puis <u>2020</u>.</li>
               <li>Pour ajouter une condition, cliquez sur "add condition".</li>
               <li>Saisissez <u>Indicateur</u> puis <u>equals</u> puis <u>CA</u>.</li>
@@ -284,7 +297,7 @@ slides: [
             </ul>
           </span>
 
-          <h3 class="trial-title">Paramétrez la tuile</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Paramétrez la tuile</h3>
           <span class="home-tabs__subtitle">
             Quittons maintenant la partie requête de données...
             <br><br>Cliquez sur tuile en haut à gauche de l'écran.
@@ -297,7 +310,13 @@ slides: [
             </ul>
             Enfin, cliquez sur "save". Et voilà votre première tuile est terminée !
           </span>
-          <br>
+
+          <br><br>
+        	<div style="text-align:center;color:#88B2A8">
+        		<i class="fas fa-flag-checkered" style="font-size:x-large"></i>
+        		<br>Niveau validé
+          </div>
+
         </div>
         '''
         chartType: "html"
@@ -319,14 +338,14 @@ slides: [
       {
         dataset: "my_dataset"
         value: '''
-        <div>
+        <div style="width:100%">
           <p align="center">
           	<iframe width="522" height="242"
           		src="https://www.youtube.com/embed/ZcuYTwTR1MA?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
           		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </p>
 
-          <h3 class="trial-title">Qu'est ce qu'un écran ?</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Qu'est ce qu'un écran ?</h3>
           <span class="home-tabs__subtitle">
             Les écrans sont présents dans les chapitres. Ce sont des graphiques dans lesquels on peut ajouter plus de détails que dans les tuiles.
             On peut y accéder par le menu ou bien avec un lien depuis une tuile.
@@ -340,7 +359,7 @@ slides: [
           </span>
           <br>
 
-          <h3 class="trial-title">Ajoutez un chapitre</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Ajoutez un chapitre</h3>
           <span class="home-tabs__subtitle">
             Cliquez sur l'icone menu (en haut à gauche de l'écran).
             <br>Sous le chapitre "formation", cliquez sur "add a chapter". Un nouveau chapitre apparait.
@@ -348,7 +367,7 @@ slides: [
           </span>
           <br>
 
-          <h3 class="trial-title">Créez un écran</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Créez un écran</h3>
           <span class="home-tabs__subtitle">
             Cliquez sur votre nouveau chapitre. Un écran par défaut a été créé.
             <br>Cliquez sur le crayon pour éditer le titre de cet écran.
@@ -367,13 +386,13 @@ slides: [
           </span>
           <br>
 
-          <h3 class="trial-title">Choissez une source de données</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Choissez une source de données</h3>
           <span class="home-tabs__subtitle">
             Cliquez sur "Sélectionner un jeu de données" puis sélectionnez "entrainement".
           </span>
           <br>
 
-          <h3 class="trial-title">Filtrez les données</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Filtrez les données</h3>
           <span class="home-tabs__subtitle">
             Contrairement à la tuile, nous n'allons pas filtrer les données. Nous allons jouer sur les filtres pour afficher une partie des données.
             L'utilisateur pourra donc réaliser sa propre analyse.
@@ -386,7 +405,7 @@ slides: [
           </span>
           <br>
 
-          <h3 class="trial-title">Paramétrez l'écran</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Paramétrez l'écran</h3>
           <span class="home-tabs__subtitle">
             Quittons la partie requête...
             <br><br>
@@ -401,7 +420,7 @@ slides: [
           </span>
           <br>
 
-          <h3 class="trial-title">Ajoutez des filtres</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Ajoutez des filtres</h3>
           <span class="home-tabs__subtitle">
             Cliquez sur "add a filter" au milieu de l'écran.
             <br>Saissisez les champs suivants :
@@ -422,7 +441,13 @@ slides: [
             <br><br>
             Cliquez sur save. Admirez votre premier graphique. Maintenant nous pouvons jouer sur les filtres pour avoir un maximum d'informations.
           </span>
-          <br>
+
+          <br><br>
+        	<div style="text-align:center;color:#88B2A8">
+        		<i class="fas fa-flag-checkered" style="font-size:x-large"></i>
+        		<br>Niveau validé
+          </div>
+
         </div>
         '''
         chartType: "html"
@@ -443,14 +468,14 @@ slides: [
     charts: [
       {
         value: '''
-        <div>
+        <div style="width:100%">
           <p align="center">
           	<iframe width="522" height="242"
           		src="https://www.youtube.com/embed/TMox--_Ihjw?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
           		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </p>
 
-          <h3 class="trial-title">Ajoutez des paillettes à votre écran !</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Ajoutez des paillettes à votre écran !</h3>
           <span class="home-tabs__subtitle">
             Nous allons maintenant ajouter un commentaire, des variations et des unités à notre graphique.
 
@@ -477,7 +502,7 @@ slides: [
           </span>
           <br>
 
-          <h3 class="trial-title">Créez un 2e graphique</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Créez un 2e graphique</h3>
           <span class="home-tabs__subtitle">
             Vous devez maintenant créer un "linechart" (graphique de type ligne) pour afficher le total du CA par année.
 
@@ -487,7 +512,7 @@ slides: [
             <br><br>
             Le fonctionnement est le même que précédemment. La seule subtilité réside dans le calcul du total par année.
             <br>Nous avons plusieurs lignes par année. Il faut donc les regrouper. C'est une agrégation que l'on appelle "group by".
-            <br>Pour l'utiliser, cliquez sur "agregrate" <i class="fas fa-code-branch"></i> puis sur "group by".
+            <br>Pour l'utiliser, cliquez sur "agregrate" <i class="fas fa-code-branch" style="font-size:large;color:#F3C642"></i> puis sur "group by".
             <br>Saisissez les champs suivants :
             <ul>
               <li><b>Group rows by...</b> Date</li>
@@ -503,7 +528,13 @@ slides: [
             En cliquant sur "save", vous pouvez observer le résultat !
             </small>
           </span>
-          <br>
+
+          <br><br>
+        	<div style="text-align:center;color:#88B2A8">
+        		<i class="fas fa-flag-checkered" style="font-size:x-large"></i>
+        		<br>Niveau validé
+          </div>
+
         </div>
         '''
         chartType: "html"
@@ -525,12 +556,12 @@ slides: [
     charts: [
       {
         value: '''
-        <div>
+        <div style="width:100%">
           <p align="center">
             <iframe width="522" height="242" src="https://www.youtube.com/embed/JwCuTDo4reY?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </p>
 
-          <h3 class="trial-title">Qu’est-ce que les filtres principaux ?</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Qu’est-ce que les filtres principaux ?</h3>
           <span class="home-tabs__subtitle">
             Ce sont des filtres qui seront présents dans toute l’application, sur la page d’accueil et sur les écrans de détail.
             <br><br>
@@ -541,7 +572,7 @@ slides: [
             </ul>
           </span>
 
-          <h3 class="trial-title">Créez un filtre principal</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Créez un filtre principal</h3>
           <span class="home-tabs__subtitle">
             Disons que nous voulons créer un filtre hiérarchique contenant la liste des pays présents dans notre fichier entrainement.
 
@@ -552,7 +583,7 @@ slides: [
             Toucan vous demande maintenant créer une requête qui renvoie la liste des valeurs distinctes de votre dimension principale.
 
             <br><br>
-            Sélectionnez le jeu de données entrainement puis cliquez sur "aggregate" <i class="fas fa-code-branch"></i> et sélectionnez "get unique groups/values".
+            Sélectionnez le jeu de données entrainement puis cliquez sur "aggregate" <i class="fas fa-code-branch" style="font-size:large;color:#F3C642"></i> et sélectionnez "get unique groups/values".
             <br>Sélectionnez "Pays" dans la partie de gauche puis sauvegarder.
 
             <br><br>
@@ -566,12 +597,12 @@ slides: [
             </ul>
           </span>
 
-          <h3 class="trial-title">Reliez vos tuiles et vos écrans au filtre principal</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Reliez vos tuiles et vos écrans au filtre principal</h3>
           <span class="home-tabs__subtitle">
             Maintenant vous avez la possibilité ou non de relier les tuiles au filtre principal.
             <br><br>
-            Pour ce faire, éditez la tuile et modifiez l’étape "filter rows" en cliquant sur l’engrenage <i class="fas fa-cog"></i>.
-            <br>Ajoutez une condition (Add condition) et saisissez <u>Pays</u> puis <u>equals</u> puis survolez les accolades sur le dernier champs <i class="fas fa-brackets-curly"></i>.
+            Pour ce faire, éditez la tuile et modifiez l’étape "filter rows" en cliquant sur l’engrenage <i class="fas fa-cog" style="font-size:large;color:#F3C642"></i>.
+            <br>Ajoutez une condition (Add condition) et saisissez <u>Pays</u> puis <u>equals</u> puis survolez les accolades sur le dernier champs <i class="fas fa-brackets-curly" style="font-size:large;color:#F3C642"></i>.
             <br>Dans la liste déroulante, vous pouvez sélectionner la variable de votre filtre principal. Cette valeur sera actualisée automatiquement à chaque fois que vous changerez de sélection.
             <br><br>
             Et voilà, votre tuile est reliée au filtre principal !
@@ -579,6 +610,13 @@ slides: [
             <br><br>
             Le fonctionnement du filtre date est identique...
           </span>
+
+          <br><br>
+        	<div style="text-align:center;color:#88B2A8">
+        		<i class="fas fa-flag-checkered" style="font-size:x-large"></i>
+        		<br>Niveau validé
+          </div>
+
         </div>
         '''
         chartType: "html"
@@ -599,7 +637,7 @@ slides: [
     charts: [
       {
         value: '''
-        <div>
+        <div style="width:100%">
           <p align="center">
             <iframe width="522" height="242" src="https://www.youtube.com/embed/eOm_MIuWa5U?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </p>
@@ -618,27 +656,34 @@ slides: [
             </i>
           </small>
 
-          <h3 class="trial-title">Comment télécharger le fichier data.xlsx ?</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Comment télécharger le fichier data.xlsx ?</h3>
           <span class="home-tabs__subtitle">
             Cliquez sur "data" dans le menu noir en bas de l'écran. Choisissez l'option "data source".
             <br><br>Vous voyez une vignette qui correspond à notre jeu de données "Entrainement".
             <br>Le fichier "data.xlsx" a été chargé dans Toucan Toco. Ces données sont devenues un "domain" dans la base de données de Toucan Toco. En l’occurrence, il s’agit du "domain" Entrainement.
-            <br><br>Cliquez sur l'icône téléchargement <i class="fas fa-download"></i> puis choisissez le fichier qui alimente la production ou le staging.
+            <br><br>Cliquez sur l'icône téléchargement <i class="fas fa-download" style="font-size:large;color:#F3C642"></i> puis choisissez le fichier qui alimente la production ou le staging.
           </span>
 
-          <h3 class="trial-title">Comment mettre à jour un domain ?</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Comment mettre à jour un domain ?</h3>
           <span class="home-tabs__subtitle">
             Ajoutez de nouvelles lignes au fichier "data.xlsx" pour ajouter des villes.
             <br><br>Pour charger le fichier modifié, vous pouvez cliquer sur le rectangle pointillé au milieu de la vignette ("click or drag a new file in here").
             <br>Toucan va maintenant charger ce fichier dans la base de données. Lorsque ce sera terminé, vous verrez un message en bas à droite de l'écran.
           </span>
 
-          <h3 class="trial-title">Comment ajouter un fichier Excel ?</h3>
+          <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Comment ajouter un fichier Excel ?</h3>
           <span class="home-tabs__subtitle">
             Cliquez sur la vignette grise la plus à gauche ("ajouter un fichier source"). Choisissez votre fichier.
             <br>Renommez le domain et cliquez sur "Save".
             <br><br>Voilà, votre fichier est maintenant disponible dans Toucan !
           </span>
+
+          <br><br>
+        	<div style="text-align:center;color:#88B2A8">
+        		<i class="fas fa-flag-checkered" style="font-size:x-large"></i>
+        		<br>Niveau validé
+          </div>
+
         </div>
         '''
         chartType: "html"

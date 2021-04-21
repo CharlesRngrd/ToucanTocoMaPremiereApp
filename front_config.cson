@@ -78,7 +78,7 @@ slides: [
         <div style="width:100%">
           <p align="center">
           	<iframe width="522" height="242"
-          		src="https://www.youtube.com/embed/yhsBV7M4OWo?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
+          		src="https://www.youtube.com/embed/NylqsTg5Guo?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
           		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </p>
 
@@ -152,7 +152,7 @@ slides: [
         <div style="width:100%">
           <p align="center">
           	<iframe width="522" height="242"
-          		src="https://www.youtube.com/embed/1R5hrlalehk?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
+          		src="https://www.youtube.com/embed/ejfInTIRVmk?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
           		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </p>
 
@@ -166,7 +166,7 @@ slides: [
 
             <br><br>
             Cliquez sur "theme" puis sur "assets" dans le menu noir en bas de l'écran.
-            <br>Chargez votre image de fond dans les 3 premières vignettes.
+            <br>Chargez votre image de fond dans les 2 premières vignettes.
             <br>Chargez votre logo dans les 3 dernières vignettes.
 
             <br><br>
@@ -233,7 +233,7 @@ slides: [
         <div style="width:100%">
           <p align="center">
           	<iframe width="522" height="242"
-          		src="https://www.youtube.com/embed/gSAbU3Ti6_g?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
+          		src="https://www.youtube.com/embed/1ogTdNQEdWQ?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
           		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </p>
 
@@ -258,7 +258,7 @@ slides: [
             Toucan vous demande si vous voulez créer une nouvelle requête ou copier une requête existante.
             <br>Cliquez sur "New query from scratch" pour créer une nouvelle requête.
             <br><br>
-            Cliquez sur "sélectionner un jeu de données" puis sélectionnez le jeu de données "Entrainement".
+            Maintenant, il faut utiliser un jeu de données. Cliquez sur la liste déroullante puis sélectionnez le jeu de données "Entrainement".
             <br><br>
             Ce jeu de données contient les colonnes suivantes :
             <ul>

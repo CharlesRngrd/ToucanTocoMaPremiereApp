@@ -341,7 +341,7 @@ slides: [
         <div style="width:100%">
           <p align="center">
           	<iframe width="522" height="242"
-          		src="https://www.youtube.com/embed/ZcuYTwTR1MA?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
+          		src="https://www.youtube.com/embed/m61YXl9GMsE?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
           		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </p>
 
@@ -388,7 +388,7 @@ slides: [
 
           <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Choissez une source de données</h3>
           <span class="home-tabs__subtitle">
-            Cliquez sur "Sélectionner un jeu de données" puis sélectionnez "entrainement".
+            Maintenant, il faut utiliser un jeu de données. Cliquez sur la liste déroullante puis sélectionnez "Entrainement".
           </span>
           <br>
 
@@ -439,7 +439,7 @@ slides: [
             Cliquez sur la croix en haut à droite pour revenir sur l'interface centrale.
 
             <br><br>
-            Cliquez sur save. Admirez votre premier graphique. Maintenant nous pouvons jouer sur les filtres pour avoir un maximum d'informations.
+            Cliquez sur "save". Admirez votre premier graphique. Maintenant nous pouvons jouer sur les filtres pour avoir un maximum d'informations.
           </span>
 
           <br><br>
@@ -471,7 +471,7 @@ slides: [
         <div style="width:100%">
           <p align="center">
           	<iframe width="522" height="242"
-          		src="https://www.youtube.com/embed/TMox--_Ihjw?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
+          		src="https://www.youtube.com/embed/bklZqHiIv_4?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
           		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </p>
 
@@ -487,17 +487,16 @@ slides: [
 
             <br><br>
             <b><li>Ajoutez des variations</li></b>
-            <br>Maintenant éditez le graphique puis descendez en bas des paramètres.
-            <br>Vous pouvez ajouter une variation en cliquant sur "plus de paramètres optionnels" puis en saissant "Variation" dans le champs variation.
+            <br>Maintenant éditez le graphique puis descendez jusqu'à la rubrique "variation" et cliquer sur le "+" pour la déplier.
+            <br>Choisissez la colonne "Variation" dans la liste déroulante.
 
             <br><br>
             <b><li>Ajoutez des unités</li></b>
-            <br>Restez sur la partie "chart" (et non pas sur "query"). Cliquez sur la flèche de la colonne montant et cliquez sur "configurer les unités".
-            <br>Saissez "k€" puis sauvegardez (laissez coché la case 'Display a space before the unit', sinon l'unité sera collée au nombre).
+            <br>Remontez un peu et cliquez sur le bouton "Add units" en dessous du champs "value". Saissez "k€" puis sauvegardez.
+            <br>Attention : il faut cocher la case 'Display a space before the unit', sinon l'unité sera collée au nombre !
             </ul>
 
-            <br>Revenez à l'interface centrale puis enregistrez.
-            <br>Lorsque vous sélectionnez 2020 ou 2019, la variation s'affiche !
+            Revenez à l'interface centrale puis enregistrez.
             </small>
           </span>
           <br>
@@ -521,8 +520,8 @@ slides: [
 
             Pour votre "linechart", saisissez les champs suivants :
             <ul>
-              <li><b>Value</b> Montant</li>
               <li><b>X</b> Date</li>
+              <li><b>Y</b> Montant</li>
             </ul>
 
             En cliquant sur "save", vous pouvez observer le résultat !

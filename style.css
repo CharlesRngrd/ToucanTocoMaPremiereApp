@@ -1,27 +1,8 @@
-.trial-title:before {
-  background: #f3c600;
-  content: "";
-  display: inline-block;
-  height: 12px;
-  width: 12px;
-  margin-right: 8px;
+.main-small-app-wrapper .admin .small-app-workspace {
+  overflow: hidden !important;
 }
 
-.custom-comment {
-  color: #9a9a9a;
-  font-weight: 600;
-}
-.custom-comment a, .custom-comment a:hover {
-  color: #9a9a9a;
+.video {
   text-decoration: none;
-  vertical-align: middle;
-}
-.custom-comment i {
-  font-size: 50px;
-  vertical-align: middle;
-}
-
-.tc-html-chart i.fas, .tc-html-chart i.far {
-  font-size: 24px;
-  color: #F3C642;
+  color: #88B2A8;
 }

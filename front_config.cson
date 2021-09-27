@@ -12,7 +12,7 @@
           name: 'Bienvenue <br><small><small><small><i>Cliquez pour agrandir</i></small></small></small>'
           type: 'text'
           dataset: 'my_dataset'
-          value: 'Toucan Toco permet de <b><font color=#f3c642>créer votre propre reporting digital</b></font> en quelques clics.\n\n<br><br>Cette formation vous fera de découvrir l\'outil en <b><font color=#f3c642>moins de 2 heures</b></font>.'
+          value: 'Toucan Toco permet de <b><span style="color:#F3C642">créer votre propre reporting digital</b></span> en quelques clics.\n\n<br><br>Cette formation vous fera de découvrir l\'outil en <b><span style="color:#F3C642">moins de 2 heures</b></span>.'
           datasets:
             my_dataset: {}
         }
@@ -21,7 +21,7 @@
           name: 'Comment ça marche ? <small><small><small><i>Cliquez pour agrandir</i></small></small></small>'
           type: 'text'
           dataset: 'my_dataset'
-          value: 'Dans le <b><font color=#F3C642>chapitre Formation</b></font>, chaque écran va vous expliquer le fonctionnement d\'une partie de l\'application.\n<br><br>Les thèmes sont abordés au travers d\'un <b><font color=#F3C642>texte</b></font> et d\'une <b><font color=#F3C642>vidéo</b></font>.\n<br><br>Ensuite, libre à vous de <b><font color=#F3C642>créer vos propres écrans !</b></font>'
+          value: 'Dans le <b><span style="color:#F3C642">chapitre Formation</b></span>, chaque écran va vous expliquer le fonctionnement d\'une partie de l\'application.\n<br><br>Les thèmes sont abordés au travers d\'un <b><span style="color:#F3C642">texte</b></span> et d\'une <b><span style="color:#F3C642">vidéo</b></span>.\n<br><br>Ensuite, libre à vous de <b><span style="color:#F3C642">créer vos propres écrans !</b></span>'
           datasets:
             my_dataset: {}
         }
@@ -76,11 +76,15 @@ slides: [
         dataset: "my_dataset"
         value: '''
         <div style="width:100%">
-          <p align="center">
-          	<iframe width="522" height="242"
-          		src="https://www.youtube.com/embed/NylqsTg5Guo?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
-          		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </p>
+          <div style="text-align:center;color:#88B2A8">
+            <a
+              class="video"
+              href="https://www.youtube.com/embed/NylqsTg5Guo?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo"
+            >
+              <p>Regarder la vidéo<p>
+              <i class="far fa-play-circle" style="font-size:xx-large"></i>
+            </a>
+          </div>
 
           <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Qu'est ce que le mode production ?</h3>
           <span class="home-tabs__subtitle">
@@ -150,11 +154,15 @@ slides: [
         dataset: "my_dataset"
         value: '''
         <div style="width:100%">
-          <p align="center">
-          	<iframe width="522" height="242"
-          		src="https://www.youtube.com/embed/ejfInTIRVmk?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
-          		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </p>
+          <div style="text-align:center;color:#88B2A8">
+            <a
+              class="video"
+              href="https://www.youtube.com/embed/ejfInTIRVmk?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo"
+            >
+              <p>Regarder la vidéo<p>
+              <i class="far fa-play-circle" style="font-size:xx-large"></i>
+            </a>
+          </div>
 
           <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Modifiez le logo et l'image de fond</h3>
           <span class="home-tabs__subtitle">
@@ -231,11 +239,15 @@ slides: [
         dataset: "my_dataset"
         value: '''
         <div style="width:100%">
-          <p align="center">
-          	<iframe width="522" height="242"
-          		src="https://www.youtube.com/embed/1ogTdNQEdWQ?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
-          		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </p>
+          <div style="text-align:center;color:#88B2A8">
+            <a
+              class="video"
+              href="https://www.youtube.com/embed/1ogTdNQEdWQ?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo"
+            >
+              <p>Regarder la vidéo<p>
+              <i class="far fa-play-circle" style="font-size:xx-large"></i>
+            </a>
+          </div>
 
           <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Qu'est ce que qu'une tuile ?</h3>
           <span class="home-tabs__subtitle">
@@ -339,11 +351,15 @@ slides: [
         dataset: "my_dataset"
         value: '''
         <div style="width:100%">
-          <p align="center">
-          	<iframe width="522" height="242"
-          		src="https://www.youtube.com/embed/m61YXl9GMsE?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
-          		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </p>
+          <div style="text-align:center;color:#88B2A8">
+            <a
+              class="video"
+              href="https://www.youtube.com/embed/m61YXl9GMsE?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo"
+            >
+              <p>Regarder la vidéo<p>
+              <i class="far fa-play-circle" style="font-size:xx-large"></i>
+            </a>
+          </div>
 
           <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Qu'est ce qu'un écran ?</h3>
           <span class="home-tabs__subtitle">
@@ -469,11 +485,15 @@ slides: [
       {
         value: '''
         <div style="width:100%">
-          <p align="center">
-          	<iframe width="522" height="242"
-          		src="https://www.youtube.com/embed/bklZqHiIv_4?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0"
-          		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </p>
+          <div style="text-align:center;color:#88B2A8">
+            <a
+              class="video"
+              href="https://www.youtube.com/embed/bklZqHiIv_4?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo"
+            >
+              <p>Regarder la vidéo<p>
+              <i class="far fa-play-circle" style="font-size:xx-large"></i>
+            </a>
+          </div>
 
           <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Ajoutez des paillettes à votre écran !</h3>
           <span class="home-tabs__subtitle">
@@ -556,9 +576,15 @@ slides: [
       {
         value: '''
         <div style="width:100%">
-          <p align="center">
-            <iframe width="522" height="242" src="https://www.youtube.com/embed/bWpxfqWrh-c?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </p>
+          <div style="text-align:center;color:#88B2A8">
+            <a
+              class="video"
+              href="https://www.youtube.com/embed/bWpxfqWrh-c?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo"
+            >
+              <p>Regarder la vidéo<p>
+              <i class="far fa-play-circle" style="font-size:xx-large"></i>
+            </a>
+          </div>
 
           <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Qu’est-ce que les filtres principaux ?</h3>
           <span class="home-tabs__subtitle">
@@ -637,9 +663,16 @@ slides: [
       {
         value: '''
         <div style="width:100%">
-          <p align="center">
-            <iframe width="522" height="242" src="https://www.youtube.com/embed/6A4ympGh7Yw?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </p>
+          <div style="text-align:center;color:#88B2A8">
+            <a
+              class="video"
+              href="https://www.youtube.com/embed/6A4ympGh7Yw?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo"
+            >
+              <p>Regarder la vidéo<p>
+              <i class="far fa-play-circle" style="font-size:xx-large"></i>
+            </a>
+          </div>
+
           <small>
             <i>
               Toucan Toco offre beaucoup de possibilités pour charger des données :

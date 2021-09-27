@@ -1,3 +1,7 @@
+h3 {
+  margin-top: 40px;
+}
+
 .main-small-app-wrapper .admin .small-app-workspace {
   overflow: hidden !important;
 }

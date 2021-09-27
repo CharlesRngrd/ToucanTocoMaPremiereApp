@@ -723,6 +723,87 @@ slides: [
       }
     ]
   }
+  {
+    id: 50462187
+    level: 3
+    parent_id: 509051
+    title: "Connectez-vous à une API"
+    datasets:
+      my_dataset:
+        id: "my_dataset"
+        query:
+          domain: ""
+    charts: [
+      {
+        dataset: "my_dataset"
+        value: '''
+          <div style="width:100%">
+            <div style="text-align:center;color:#88B2A8">
+              <a
+                class="video"
+                href="https://youtu.be/cVeLv55tfXM"
+              >
+                <p>Regarder la vidéo<p>
+                <i class="far fa-play-circle" style="font-size:xx-large"></i>
+              </a>
+            </div>
+
+            Dans ce module, nous allons nous connecter à l’API de JSON Placeholder.
+            <br>Il s’agit d’une URL qui revoie une liste de "To do".
+            <br>Vous pouvez naviguer dessus ici : <a href="https://jsonplaceholder.typicode.com/todos">https://jsonplaceholder.typicode.com/todos</a>
+
+            <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Déclarez la connexion</h3>
+            <span class="home-tabs__subtitle">
+              <small>
+                <i>
+                  Passez en mode édition (comme dans l'épisode précédent)
+                </i>
+              </small>
+          
+              <br><br>
+              Cliquez sur "datastore" puis sur "connectors" dans le menu noir en bas de l'écran.
+              <br>Cliquez sur "Add a connector" puis sur "Http API".
+              <br>Saisissez les 2 champs suivants :
+              <ul>
+                <li>Name : JSONPlaceholder</li>
+                <li>Baseroute Url : https://jsonplaceholder.typicode.com</li>
+              </ul>
+              <br>Enfin cliquez sur Save.
+
+              <br><br>Attention : Vous pouvez renseigner le nom que vous voulez dans le champ Name.
+
+            <span>
+            <br>
+          
+            <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Déclarez la requête</h3>
+            <span class="home-tabs__subtitle">
+              Cliquez sur "Add a query".
+
+              <br><br>Saisissez les 2 champs suivants :
+              <ul>
+                <li>Domain : Todo</li
+                <li>Endpoint Url : /todos</li>
+              </ul>
+              <br>Enfin cliquez sur Save.
+            <span>
+            <br>
+          
+            <br><br>Voilà, vous avez connecté Toucan Toco à une API. A chaque mise à jour des données.
+            <br>Toucan Toco ira sur l’URL pour récupérer les données à jour.
+          
+            <br><br>
+            <div style="text-align:center;color:#88B2A8">
+              <i class="fas fa-flag-checkered" style="font-size:x-large"></i>
+              <br>Niveau validé
+            </div>
+          
+          </div>
+        '''
+        chartType: "html"
+      }
+    ]
+    visibility: true
+  }
 ]
 additionalPanel:
   captureChartEnabled: true

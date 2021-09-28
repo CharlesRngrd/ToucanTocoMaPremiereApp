@@ -21,7 +21,7 @@
           name: 'Comment ça marche ? <small><small><small><i>Cliquez pour agrandir</i></small></small></small>'
           type: 'text'
           dataset: 'my_dataset'
-          value: 'Dans le <b><span style="color:#F3C642">chapitre Formation</b></span>, chaque écran va vous expliquer le fonctionnement d\'une partie de l\'application.\n<br><br>Les thèmes sont abordés au travers d\'un <b><span style="color:#F3C642">texte</b></span> et d\'une <b><span style="color:#F3C642">vidéo</b></span>.\n<br><br>Ensuite, libre à vous de <b><span style="color:#F3C642">créer vos propres écrans !</b></span>'
+          value: 'Dans les chapitres <b><span style="color:#F3C642">Design</span> et <span style="color:#F3C642">Data</span></b>, chaque écran va vous expliquer le fonctionnement d\'une partie de l\'application.\n<br><br>Les thèmes sont abordés au travers d\'un <b><span style="color:#F3C642">texte</b></span> et d\'une <b><span style="color:#F3C642">vidéo</b></span>.\n<br><br>Ensuite, libre à vous de <b><span style="color:#F3C642">créer vos propres écrans !</b></span>'
           datasets:
             my_dataset: {}
         }
@@ -59,7 +59,7 @@ slides: [
   {
     id: 1
     level: 1
-    title: 'Formation'
+    title: 'Design'
   }
   {
     id: 1001
@@ -560,11 +560,15 @@ slides: [
         dataset: "my_dataset"
       }
     ]
+    recommendation:
+      advert: "Astuce"
+      content: "<p>Pour créer ce petit fanion jaune, cliquez sur \"Add a tip\" !</p>"
+      icon: "boussole"
   }
   {
     id: 509051
     level: 1
-    title: 'Bonus'
+    title: 'Data'
   }
   {
     id: 1276794
@@ -750,7 +754,8 @@ slides: [
 
             Dans ce module, nous allons nous connecter à l’API de JSON Placeholder.
             <br>Il s’agit d’une URL qui revoie une liste de "To do".
-            <br>Vous pouvez naviguer dessus ici : <a href="https://jsonplaceholder.typicode.com/todos">https://jsonplaceholder.typicode.com/todos</a>
+            
+            <br><br>Vous pouvez naviguer dessus ici : <a href="https://jsonplaceholder.typicode.com/todos">https://jsonplaceholder.typicode.com/todos</a>
 
             <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Déclarez la connexion</h3>
             <span class="home-tabs__subtitle">
@@ -763,7 +768,8 @@ slides: [
               <br><br>
               Cliquez sur "datastore" puis sur "connectors" dans le menu noir en bas de l'écran.
               <br>Cliquez sur "Add a connector" puis sur "Http API".
-              <br>Saisissez les 2 champs suivants :
+              
+              <br><br>Saisissez les 2 champs suivants :
               <ul>
                 <li>Name : JSONPlaceholder</li>
                 <li>Baseroute Url : https://jsonplaceholder.typicode.com</li>
@@ -781,15 +787,15 @@ slides: [
 
               <br><br>Saisissez les 2 champs suivants :
               <ul>
-                <li>Domain : Todo</li
+                <li>Domain : Todo</li>
                 <li>Endpoint Url : /todos</li>
               </ul>
               <br>Enfin cliquez sur Save.
             <span>
             <br>
           
-            <br><br>Voilà, vous avez connecté Toucan Toco à une API. A chaque mise à jour des données.
-            <br>Toucan Toco ira sur l’URL pour récupérer les données à jour.
+            <br><br>Voilà, vous avez connecté Toucan Toco à une API.
+            <br>A chaque mise à jour des données, Toucan Toco ira sur l’URL pour récupérer les données à jour.
           
             <br><br>
             <div style="text-align:center;color:#88B2A8">
@@ -797,6 +803,72 @@ slides: [
               <br>Niveau validé
             </div>
           
+          </div>
+        '''
+        chartType: "html"
+      }
+    ]
+    visibility: true
+  }
+  {
+    id: 47687751
+    level: 3
+    parent_id: 509051
+    title: "Automatisez les mises à jour"
+    datasets:
+      my_dataset:
+        id: "my_dataset"
+        query:
+          domain: ""
+    charts: [
+      {
+        dataset: "my_dataset"
+        value: '''
+          <div style="width:100%">
+            <div style="text-align:center;color:#88B2A8">
+              <a
+                class="video"
+                href="https://youtu.be/E_w9OoY50dQ?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo"
+              >
+                <p>Regarder la vidéo<p>
+                <i class="far fa-play-circle" style="font-size:xx-large"></i>
+              </a>
+            </div>
+
+            Dans ce module, nous allons nous automatiser la mise à jour des données à une fréquence définie.
+            
+            <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Dans quels cas faut-il automatiser les données ?</h3>
+            <span class="home-tabs__subtitle">
+              Définir une fréquence de mise à jour est utile lorsque :
+              <ul>
+                <li>La data est déposée chaque mois sur un FTP</li>
+                <li>La data provient d’une API</li>
+                <li>La data provient d’une base SQL</li>
+              </ul>
+            <span>
+
+            <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Paramétrez la fréquence de mise à jour</h3>
+            <span class="home-tabs__subtitle">
+              Cliquez sur "AUTOMATIONS" puis sur "ADD A SCHEDULED ACTION"
+              <br><br>
+              Dans le formulaire :
+              <ul>
+                <li>Saisissez un nom dans "ACTION NAME"</li>
+                <li>Cochez "Refresh data" puis cochez les jeux de données qui seront mis à jour</li>
+                <li>Cochez "Publish" puis cochez data</li>
+                <li>Enfin, choissez la fréquence mise à jour : Quotidienne / Hebdomadaire / Mensuelle</li>
+              </ul>
+
+              <br>Pour faire une mise à jour horaire, saisissez "Custom" puis "0 * * * *" (c'est la syntaxe Crontab en python)
+
+              <br><br>Voilà, votre mise à jour automatique est activée !
+            <span>
+
+            <br><br>
+            <div style="text-align:center;color:#88B2A8">
+              <i class="fas fa-flag-checkered" style="font-size:x-large"></i>
+              <br>Niveau validé
+            </div>
           </div>
         '''
         chartType: "html"

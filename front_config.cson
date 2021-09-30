@@ -745,7 +745,7 @@ slides: [
             <div style="text-align:center;color:#88B2A8">
               <a
                 class="video"
-                href="https://youtu.be/cVeLv55tfXM"
+                href="https://youtu.be/cVeLv55tfXM?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo"
               >
                 <p>Regarder la vidéo<p>
                 <i class="far fa-play-circle" style="font-size:xx-large"></i>
@@ -795,7 +795,7 @@ slides: [
             <br>
           
             <br><br>Voilà, vous avez connecté Toucan Toco à une API.
-            <br>A chaque mise à jour des données, Toucan Toco ira sur l’URL pour récupérer les données à jour.
+            <br>A chaque fois que vous lancerez un "Refresh Data", Toucan Toco ira sur l’URL pour récupérer les données à jour.
           
             <br><br>
             <div style="text-align:center;color:#88B2A8">
@@ -860,9 +860,114 @@ slides: [
               </ul>
 
               <br>Pour faire une mise à jour horaire, saisissez "Custom" puis "0 * * * *" (c'est la syntaxe Crontab en python)
+              
+              <br><br>Voici le détail des étoiles :
+              <br><br><img src="https://user.oc-static.com/files/144001_145000/144176.png" width="300px" />
 
               <br><br>Voilà, votre mise à jour automatique est activée !
             <span>
+
+            <br><br>
+            <div style="text-align:center;color:#88B2A8">
+              <i class="fas fa-flag-checkered" style="font-size:x-large"></i>
+              <br>Niveau validé
+            </div>
+          </div>
+        '''
+        chartType: "html"
+      }
+    ]
+    visibility: true
+  }
+  {
+    id: 66082919
+    level: 3
+    parent_id: 509051
+    title: "Préparez vos données"
+    datasets:
+      my_dataset:
+        id: "my_dataset"
+        query:
+          domain: ""
+    charts: [
+      {
+        dataset: "my_dataset"
+        value: '''
+          <div style="width:100%">
+            <div style="text-align:center;color:#88B2A8">
+              <a
+                class="video"
+                href="https://youtu.be/Hr5a10Ae4D0?list=PLAweB-42dw1AT1cD7TDvBGhDqvqUVokxo"
+              >
+                <p>Regarder la vidéo<p>
+                <i class="far fa-play-circle" style="font-size:xx-large"></i>
+              </a>
+            </div>
+
+            Dans ce module, nous allons créer un jeu de données prêt à l’emploi dans les écrans.
+            
+            <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Dans quels cas doit-on préparer sa donnée ?</h3>
+            <span class="home-tabs__subtitle">
+              Dans certains cas, les requêtes prennent du temps à être exécutées. C’est le cas si :
+              
+              <ul>
+                <li>Les fichiers sont volumineux</li>
+                <li>Les transformations sont complexes (jointures, agrégations)</li>
+              </ul>
+
+              Dans cette situation, Toucan Toco permet d’exécuter la requête une seule fois lors de la mise à jour des données. 
+              <br>Les résultats serons seront stockés dans la base de données.
+              
+              <br><br>Ainsi les graphiques s’afficheront très rapidement lorsque l’utilisateur se connectera.
+
+              <br><br>Préparer la donnée permet également d'éviter de dupliquer les transformations dans les requêtes.
+            </span>
+
+            <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Préparez votre jeu de données</h3>
+            <span>
+              Pour suivre ce module, vous devrez ajouter une 2e requête sur votre connecteur JSJONPlaceholder.
+
+              <br><br>Pour ce faire saisissez les 2 champs suivants :
+
+              <ul>
+                <li>Domain : User</li>
+                <li>Endpoint Url : /users</li>
+              </ul>
+              
+              Vous avez maintenant :
+
+              <ul>
+                <li>une liste de "To do" contenant l’ID de l’utilisateur</li>
+                <li>une liste d’utilisateurs (avec leur ID)</li>
+              </ul>
+
+              <br>La jointure entre ces 2 jeux de données peut prendre du temps, vous allez donc préparer vos données pour stocker le résultat.
+
+              <br><br>Voici la marche à suivre :
+
+              <ul>
+                <li>Cliquez sur "DATA STORE" puis sur "DATA EXPLORER"</li>
+                <li>Cliquez sur "Add data" puis sur "From Existing Data" et choisissez "Todo"</li>
+                <li>Cliquez sur "Combine" <i class="fas fa-object-group" style="font-size:large;color:#F3C642"></i> en haut à droite puis sur "Join datasets" 
+              </ul>
+
+              <ul>
+                <li>Nous faisons la jointure sur les utilisateurs, choisissez donc le jeux de données "User"</li>
+                <li>Laissez le type de jointure "Left" car on veut garder toutes les lignes du jeux de données de gauche (Todo)</li>
+                <li>La jointure se fait sur l'ID donc sélectionnez la colonne "id" en bas à gauche du formulaire</li>
+                <li>Enregistrez la transformation puis cliquez sur "Save Dataset" pour valider le jeu de données</li>
+                <li>Toucan vous demande de choisir un nom pour ce nouveau jeu de données</li>
+              </ul>
+
+              Lorsque que vous aurez créé le jeu de données, il apparaitra en rouge. 
+              <br>Toucan Toco vous demandera de lancer un "Refresh Data" pour enregistrer ce jeux de données.
+
+            <h3><i class="fas fa-chevron-right" style="font-size:large;color:#F3C642"></i> Utilisez votre jeux de données</h3>
+            <span>
+              Dans la page d'accueil, lorsque vous cliquerez sur "Add tile" pour créer une tuile, vous pourrer sélectionner votre nouveaux jeu de données.
+              
+              <br><br>Voilà, vous savez maintenant faire de la Data Prep...
+            </span>
 
             <br><br>
             <div style="text-align:center;color:#88B2A8">
